@@ -1,0 +1,1 @@
+Este es el examen de certificación de #SeProgramar. Lee bien cada consigna. Muchísima suerte y éxitos. :four_leaf_clover: :muscle:
