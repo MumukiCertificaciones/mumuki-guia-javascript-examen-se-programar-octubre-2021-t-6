@@ -1,0 +1,26 @@
+--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+METODO_CARGAR: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  type: one_of
+  value:
+  - cargar_nafta!
+  - cargar_combustible!
+  - cargar!
+METODO_VERIFICAR: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  type: one_of
+  value:
+  - carga_suficiente?
+  - suficiente_nafta?
+  - suficiente_combustible?
+  - nafta_suficiente?
+  - suficiente_nafta?
+CANTIDAD_CARGA: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  type: range
+  value:
+  - 20
+  - 50
+CLASE: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  type: one_of
+  value:
+  - Auto
+  - Moto
+  - Camioneta

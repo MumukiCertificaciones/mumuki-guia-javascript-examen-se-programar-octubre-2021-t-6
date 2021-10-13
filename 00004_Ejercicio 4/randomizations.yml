@@ -1,0 +1,19 @@
+--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+FUNCION: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  type: one_of
+  value:
+  - mezcladorDePalabras
+  - mezclarPalabras
+CORTE: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  type: range
+  value:
+  - 3
+  - 10
+NUMERO_MAYOR: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  type: expression
+  value:
+  - CORTE + 1
+NUMERO_MENOR: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  type: expression
+  value:
+  - CORTE - 1

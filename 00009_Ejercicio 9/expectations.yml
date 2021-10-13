@@ -1,0 +1,14 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Banda
+  inspection: DeclaresMethod:tocar!
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "$ARTISTA_1"
+  inspection: DeclaresMethod:tocar!
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "$ARTISTA_2"
+  inspection: DeclaresMethod:tocar!
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Triangulista
+  inspection: DeclaresMethod:tocar!

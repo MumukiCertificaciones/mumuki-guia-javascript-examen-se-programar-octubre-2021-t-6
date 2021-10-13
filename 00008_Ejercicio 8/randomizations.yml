@@ -1,0 +1,18 @@
+--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+METODO: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  type: one_of
+  value:
+  - nombres_de_canciones
+  - nombres_de_las_canciones
+  - nombre_canciones
+PREDEFINIDO: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  type: one_of
+  value:
+  - nombre
+  - titulo
+OBJETO: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  type: one_of
+  value:
+  - Compilado
+  - Disco
+  - DiscoCompilado

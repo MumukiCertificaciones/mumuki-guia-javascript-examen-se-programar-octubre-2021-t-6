@@ -1,0 +1,19 @@
+--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+INDICE_COORDINACION: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  type: range
+  value:
+  - 10
+  - 40
+ARTISTA_1: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  type: one_of
+  value:
+  - Guitarrista
+  - Bajista
+  - Violinista
+ARTISTA_2: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  type: one_of
+  value:
+  - Baterista
+  - Pianista
+  - Percusionista
+  - Saxofonista

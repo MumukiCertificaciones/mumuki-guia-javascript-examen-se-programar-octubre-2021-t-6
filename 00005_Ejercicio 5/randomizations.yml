@@ -1,0 +1,10 @@
+--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+FUNCION: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  type: one_of
+  value:
+  - sumaDeLetrasDePalabrasCortas
+  - sumaLetrasDePalabrasCortas
+  - sumaDeLetrasDeCortas
+  - sumatoriaDeLetrasDePalabrasCortas
+  - sumatoriaLetrasDePalabrasCortas
+  - sumatoriaDeLetrasDeCortas

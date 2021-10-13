@@ -1,0 +1,17 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
+  inspection: Declares:$CLASE
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "$CLASE"
+  inspection: DeclaresMethod:nafta
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "$CLASE"
+  inspection: DeclaresMethod:$METODO_CARGAR
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "$CLASE"
+  inspection: DeclaresMethod:$METODO_VERIFICAR
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "$METODO_VERIFICAR"
+  inspection: Not:UsesIf

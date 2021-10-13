@@ -1,0 +1,22 @@
+--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+FUNCION: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  type: one_of
+  value:
+  - resumenInformacion
+  - resumenDeInformacion
+  - resumenInfo
+  - resumenDeInfo
+  - informacionResumida
+  - infoResumida
+STRING_PLATAFORMA: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  type: one_of
+  value:
+  - por
+  - por la plataforma
+  - utilizando
+  - con la plataforma
+STRING_ESTIMACION: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  type: one_of
+  value:
+  - Se estima
+  - Está estimado
