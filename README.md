@@ -7,5 +7,5 @@ Copyright Gustavo Trucco, Franco Bulgarelli, Rocío Gonzalez and contributors
 
 This content consists of voluntary contributions made by many
 individuals. For exact contribution history, see its revision history
-available at https://github.com/mumukicertificaciones/mumuki-guia-javascript-examen-se-programar-octubre-2021-t-5 and the AUTHORS.txt file.
+available at https://github.com/mumukicertificaciones/mumuki-guia-javascript-examen-se-programar-octubre-2021-t-6 and the AUTHORS.txt file.
 
